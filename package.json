@@ -1,0 +1,28 @@
+{
+	"private": true,
+	"type": "commonjs",
+	"scripts": {
+		"frontend": "vite --config ./config/vite.config.js",
+		"backend": "nodemon ./src/backend/index.js"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-react": "^4.2.1",
+		"eslint": "^8.56.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-jsx-a11y": "^6.8.0",
+		"eslint-plugin-react": "^7.33.2",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"nodemon": "^3.0.3",
+		"vite": "^5.0.12",
+		"vite-plugin-eslint": "^1.8.1",
+		"vite-plugin-react": "^4.0.1"
+	},
+	"dependencies": {
+		"express": "^4.18.2",
+		"prop-types": "^15.8.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.22.0"
+	}
+}
